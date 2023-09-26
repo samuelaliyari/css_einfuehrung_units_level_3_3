@@ -1,0 +1,173 @@
+
+@font-face {
+    font-family: Maven_Pro;
+    src: url(../font/MavenPro-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Gilda_D;
+    src: url();
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #8C8C8C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    color: #949494;
+    font-weight: 400;
+    font-family: Maven_Pro;
+    padding: 1rem;
+
+}
+
+nav h1 span {
+    padding-left: 0.5em;
+}
+
+header nav {
+    background-color: #333;
+    min-height: 30vh;
+    color: white;
+
+}
+
+.hero h2 {
+    line-height: 2rem;
+    font-size: 2rem;
+    padding: 0.2rem;
+    margin: 0 auto;
+    font-family: Gilda_D;
+    font-weight: 200;
+    line-height: 3rem;
+}
+
+.hero p {
+    padding: 1.8rem;
+    font-size: 0.5rem;
+    margin: 0 auto;
+    font-family: Maven_pro;
+    max-width: 10rem;
+}
+
+ul {
+    padding-bottom: 10rem;
+    padding-right: 1rem;
+}
+
+li {
+    padding-block:0.2rem ;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0 0 4px  white;
+}
+
+.hero {
+
+    background: linear-gradient(20deg, rgba(225,36,254,1) 0%, rgba(8,84,255,1) 60%, rgba(2,177,241,1) 100%);;
+    max-width: 12rem;
+    min-height: 12rem;
+    margin: 3rem auto;
+    border-radius: 0.5rem;
+    
+}
+
+.hero:hover {
+    background: linear-gradient(210deg, rgba(225,36,254,1) 0%, rgba(8,84,255,1) 60%, rgba(2,177,241,1) 100%);
+}
+
+.hero div {
+    text-align: center;
+}
+
+.menu {
+    text-align: right;
+}
+
+
+
+.projects h3 {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8rem;
+    color: rgba(101, 101, 101, 0.067);
+}
+
+
+.projects h4 {
+    padding-left: 0.7rem;
+    margin-top: -2.5rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projects {
+    padding:10rem 2rem ;
+    text-align: left;
+    display: block;
+    
+}
+
+.projects p {
+    padding: 2rem  1rem;
+}
+
+
+.projects > article {
+    text-align: center;
+}
+
+.projects article div {
+    padding: 1.5rem;
+    width: 695px;
+    display: block;
+    margin: 0 auto;
+}
+
+.projects article article {
+    text-align: left;
+    width: 695px;
+    display: block;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+
+}
+
+.projects article img {
+    width: 695px;
+}
+
+.projects h5, h6 {
+    padding: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projects h5 {
+    font-size: 2rem;
+}
+
+.projects h6 {
+    font-size: 0.7rem;
+    color: #333;
+}
+
+
+.projects img:hover {
+    box-shadow: 0 0 2px black;
+}
+
+.projects > h3:hover {
+    color: #33333300;
+    -webkit-text-stroke: 4px navy;
+}
